@@ -1,0 +1,30 @@
+.topics {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+.topics li {
+    margin-bottom: 5px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.topics ul {
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+.timantti {
+    background-color: rgb(65,150,164);
+}
+
+.mainos {
+    background-color: rgb(0,184,224);
+}

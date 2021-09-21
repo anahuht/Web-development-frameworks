@@ -1,0 +1,27 @@
+.num {
+    color: rgb(65, 150, 164);
+    font-weight: 800;
+    font-size: 1.75rem;
+    margin-right: 15px;
+}
+
+.article {
+    display: flex;
+    margin-left: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+ul {
+    padding-left: 0px;
+}
+
+.MRContainer {
+    width: 300px;
+    background-color: white;
+    padding: 15px;
+}
