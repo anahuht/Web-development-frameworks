@@ -15,10 +15,10 @@ class App extends React.Component {
 
     this.state = {
       items: [
-        { id: 1, value: 'Milk', qty: 5, unit: 'ltr' },
-        { id: 2, value: 'Bananas', qty: 6, unit: 'pcs' },
-        { id: 3, value: 'Bread', qty: 3, unit: 'x' },
-        { id: 4, value: 'Eggs', qty: 16, unit: 'x' }
+        { id: 1, value: 'Milk', qty: 5, unit: ' ltr' },
+        { id: 2, value: 'Bananas', qty: 6, unit: ' pcs' },
+        { id: 3, value: 'Bread', qty: 3, unit: ' x' },
+        { id: 4, value: 'Eggs', qty: 16, unit: ' x' }
       ]
     };
 
@@ -40,7 +40,35 @@ class App extends React.Component {
     this.setState({ items: [...this.state.items, {id: 8, value: 'Beer', qty: 5, unit: 'pcs'}] });
   }
 
-  
+
+  addSomeProduct = (productDescription, quantity, unit) => {
+    
+    return () => {
+      const searchResult = this.state.items.findIndex((element, index, array) => {
+        if(element.value === productDescription) {
+          return true;
+        } else {
+          return false;
+        }
+      });
+
+      if(searchResult != -1){
+      let newItems = [...this.state.items];
+      newItems[searchResult].qty += quantity;
+
+      this.setState({ items: newItems })
+    }
+
+        else {
+    this.setState({
+      items: 
+      [...this.state.items, 
+        {id: this.state.items.length + 1, value: productDescription, qty: quantity, unit: unit}
+      ] 
+    });
+  }
+  }
+}
 
   render()
   {
@@ -51,10 +79,10 @@ class App extends React.Component {
         applicationName={ applicationName }
       />
       <ShoppingList items={ this.state.items } />
-      <button onClick={ this.addSomeCarrots }> Add carrot </button>
-      <button onClick={ this.addSomeStrawberry }> Add strawberries </button>
-      <button onClick={ this.addSomeYoghurt }> Add yoghurt </button>
-      <button onClick={ this.addSomeBeer }> Add beer </button>
+      <button onClick={  this.addSomeProduct('Carrot', 1, 'pcs') }> Add carrot </button>
+      <button onClick={ this.addSomeProduct('Strawberry', 1, 'ltr') }> Add strawberries </button>
+      <button onClick={  this.addSomeProduct('Yoghurt', 2, 'pcs' )}> Add yoghurt </button>
+      <button onClick={  this.addSomeProduct('Beer', 1, 'pcs') }> Add beer </button>
     </div>
   }
 }
