@@ -1,0 +1,84 @@
+{
+    "items": [
+        {
+            "id": 1,
+            "image": "item1.png",
+            "name": "Apple Pencil (2nd Generation)",
+            "rating": 4
+        },
+        {
+            "id": 2,
+            "image": "item2.png",
+            "name": "Seagate Portable 2TB External Hard Drive Portable HDD – USB 3.0 for PC, Mac, PS4, & Xbox - 1-Year Rescue Service (STGX2000400)",
+            "rating": 4,
+            "price": "$62 99",
+            "date": "Get as soon as Thu, Oct 7",
+            "shipping": "$33.82 shipping",
+            "buing_options": ["More buing choices",
+                              "$50.79 (8 used & new offers)"] 
+        },
+        {
+            "id": 3,
+            "image": "item3.png",
+            "name": "Roku Express 4K+ 2021 | Streaming Media Player HD/4K/HDR with Smooth Wireless Streaming and Roku Voice Remote with TV Controls, Includes Premium HDMI Cable",
+            "rating": 4,
+            "price": "$38.98",
+            "date": "Get as soon as Thu, Oct 7",
+            "shipping": "$33.70 shipping",
+            "buing_options": "More buing choices",
+            "buying_choices": "$37.99 (10 used & new offers)",
+            "certification": "Works with Alexa"
+        },
+        {
+            "id": 4,
+            "image": "item4.png",
+            "name": "Roku Streaming Stick+ | HD/4K/HDR Streaming Device with Long-range Wireless and Roku Voice Remote with TV Controls",
+            "rating": 4,
+            "price": "$39.00",
+            "date": "Get as soon as Thu, Oct 7",
+            "shipping": "$33.28 shipping",
+            "buing_options": "More buing choices",
+            "buying_choices": "$30.00 (57 used & new offers)",
+            "certification": "Works with Alexa"
+        },
+        {
+            "id": 5,
+            "image": "item5.png",
+            "name": "2020 Apple MacBook Air Laptop: Apple M1 Chip, 13” Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboard, FaceTime HD Camera, Touch ID. Works with iPhone/iPad; Gold",
+            "rating": 5
+        },
+        {
+            "id": 6,
+            "image": "item6.png",
+            "name": "Apple Pencil",
+            "rating": 5
+        },
+        {
+            "id": 7,
+            "image": "item7.png",
+            "name": "Sceptre E248W-19203R 24'' Ultra Thin 75Hz 1080p LED Monitor 2x HDMI VGA Build-in Speakers, Metallic Black 2018",
+            "rating": 4,
+            "price": "$137.97",
+            "date": "Get as soon as Thu, Oct 7",
+            "shipping": "$90.99 shipping"
+        },
+        {
+            "id": 8,
+            "image": "item8.png",
+            "name": "Roku Ultra | Streaming Device HD/4K/HDR/Dolby Vision with Dolby Atmos, Bluetooth Streaming, and Roku Voice Remote with Headphone Jack and Personal Shortcuts, includes Premium HDMI Cable",
+            "rating": 4,
+            "price": "$92.12",
+            "date": "Get as soon as Thu, Oct 7",
+            "shipping": "$38.82 shipping",
+            "buing_options": "More buing choices",
+            "buying_choices": "$79.00 (27 used & new offers)",
+            "certification": "Works with Alexa"
+        },
+        {
+            "id": 9,
+            "image": "item9.png",
+            "name": "Logitech C920x HD Pro Webcam, Full HD 1080p/30fps Video Calling, Clear Stereo Audio, HD Light Correction, Works with Skype, Zoom, FaceTime, Hangouts, PC/Mac/Laptop/Macbook/Tablet - Black",
+            "rating": 5
+        }
+    ]
+}

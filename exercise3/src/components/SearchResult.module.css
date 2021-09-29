@@ -1,0 +1,17 @@
+.searchResultContainer {
+    width: 30%;
+    margin: 10px;
+    font-family: "Amazon Ember",Arial,sans-serif;
+}
+
+.image {
+    height: 340px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.searchResultName {
+    width: 350px;
+    font-weight: bold;
+    cursor: pointer;
+}
